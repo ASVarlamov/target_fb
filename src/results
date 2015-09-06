@@ -1,0 +1,94 @@
+========================================================================================================================
+adcampaigns
+========================================================================================================================
+ Request complete act_341506620/adcampaigns : {
+    "data": [
+       {
+          "id": "6030225343824",
+          "name": "AdSet 1",
+          "targeting": {
+             "age_max": 45,
+             "age_min": 16,
+             "genders": [
+                2
+             ],
+             "geo_locations": {
+                "cities": [
+                   {
+                      "country": "RU",
+                      "distance_unit": "mile",
+                      "key": "1997692",
+                      "name": "Krasnoyarsk",
+                      "region": "Krasnoyarsk Krai",
+                      "region_id": "3138"
+                   }
+                ],
+                "location_types": [
+                   "home"
+                ]
+             },
+             "interests": [
+                {
+                   "id": "6003145041152",
+                   "name": "\u0442\u0430\u043d\u0446\u044b \u043c\u0443\u0437\u044b\u043a\u0430"
+                }
+             ],
+             "page_types": [
+                "rightcolumn"
+             ]
+          }
+       },
+       {
+          "id": "6030224863624",
+          "name": "TestAd",
+          "targeting": {
+             "age_max": 50,
+             "age_min": 16,
+             "genders": [
+                2
+             ],
+             "geo_locations": {
+                "cities": [
+                   {
+                      "country": "RU",
+                      "distance_unit": "kilometer",
+                      "key": "1997692",
+                      "name": "Krasnoyarsk",
+                      "radius": 70,
+                      "region": "Krasnoyarsk Krai",
+                      "region_id": "3138"
+                   }
+                ],
+                "location_types": [
+                   "home",
+                   "recent"
+                ]
+             },
+             "interests": [
+                {
+                   "id": "6003223575158",
+                   "name": "Dirty Dancing"
+                },
+                {
+                   "id": "6003299352701",
+                   "name": "Flashdance"
+                },
+                {
+                   "id": "6003423342191",
+                   "name": "Dance"
+                }
+             ],
+             "page_types": [
+                "rightcolumn"
+             ]
+          }
+       }
+    ],
+    "paging": {
+       "cursors": {
+          "before": "NjAzMDIyNTM0MzgyNAZDZD",
+          "after": "NjAzMDIyNDg2MzYyNAZDZD"
+       }
+    }
+ }
+ =======================================================================================================================

@@ -1,0 +1,235 @@
+https://graph.facebook.com/
+    ?access_token=CAAI4BG12pyIBAEcgAzIaIBgw1xvmwLjriSqD2KZCAXtWbBKq3JtVECIh4VSUrfCeFPJjbNL3eZCykjOZBHZB8qCZBUgJHZCY1w7efAQYuIm9VEBZBcuyYITJEy777KoOQriQTOJvzHFBxR87HcGeZCQpRoJu6dL8RqNd2V3Joz8mziCCHN9lquBgM7Ew8nOZBNFrLfOFguIKLMQZDZD
+    &batch=
+    [
+        {
+            "method":"get",
+            "relative_url":"/v2.3/act_341506620/reachestimate
+                ?accountId=341506620&bid_for=["conversion"]
+                &currency=RUB
+                &endpoint=/act_341506620/reachestimate
+                &locale=ru_RU
+                &targeting_spec=
+                    {
+                        "age_max":65,
+                        "age_min":22,
+                        "locales":[17],
+                        "page_types": ["desktop-and-mobile-and-external"],
+                        "geo_locations":
+                            {
+                                "countries":["RU"],
+                                "location_types":["home","recent"]
+                            }
+                    }"
+        },
+        {
+            "method":"get",
+            "relative_url":"/v2.3/act_341506620/targetingsentencelines
+                ?accountId=341506620
+                &bid_for=["conversion"]
+                &currency=RUB
+                &discard_placements=true
+                &endpoint=/act_341506620/targetingsentencelines
+                &locale=ru_RU
+                &targeting_spec=
+                    {
+                        "age_max":65,
+                        "age_min":22,
+                        "locales":[17],
+                        "page_types": ["desktop-and-mobile-and-external"],
+                        "geo_locations":
+                            {
+                                "countries":["RU"],
+                                "location_types":["home","recent"]
+                            }
+                    }"
+        }
+    ]
+    &batch_app_id=624541620938530
+    &callback=__globalCallbacks.f20da38ac8
+    &include_headers=false
+    &method=post
+    &pretty=0
+
+
+[
+    {
+        "method":"get",
+        "relative_url":"/v2.3/act_341506620/reachestimate
+            ?accountId=341506620
+            &bid_for=["conversion"]
+            &currency=RUB
+            &endpoint=/act_341506620/reachestimate
+            &locale=ru_RU
+            &targeting_spec=
+            {
+                "age_max":65,
+                "age_min":22,
+                "interests":
+                    [
+                        {"id":"6002943117046","name":"Nintendo"},{"id":"6003341747223","name":"Sega"}
+                    ],
+                "locales":[17],
+                "page_types":["desktop-and-mobile-and-external"],
+                "geo_locations":{"countries":["RU"],"location_types":["home","recent"]}
+            }"
+    },
+    {
+        "method":"get",
+        "relative_url":"/v2.3/act_341506620/targetingsentencelines
+            ?accountId=341506620
+            &bid_for=["conversion"]
+            &currency=RUB
+            &discard_placements=true
+            &endpoint=/act_341506620/targetingsentencelines
+            &locale=ru_RU
+            &targeting_spec=
+                {
+                    "age_max":65,
+                    "age_min":22,
+                    "interests":
+                        [
+                            {
+                                "id":"6002943117046",
+                                "name":"Nintendo"
+                            },
+                            {
+                                "id":"6003341747223",
+                                "name":"Sega"
+                            }
+                        ],
+                    "locales":[17],
+                    "page_types":["desktop-and-mobile-and-external"],
+                    "geo_locations":
+                        {
+                            "countries":["RU"],
+                            "location_types":["home","recent"]
+                        }
+                }"
+    }
+]
+
+graph.facebook.com/v2.3/me/adaccounts
+    ?access_token=CAAI4BG12pyIBAHtwfzDQFeGR8BZCo7uLLImsYCMxR8CzZBZCQw1RRZAUvg7BWZBQ2TzIZCw0dzg4e6ePW0Pyg2cpiobAHGHaJWCySQ3Uv9pGA17g25Ke5jaZAPRgEGZBxGZCFGJJCXETzgUix6rebHTrF6mPBcmk7j5ImexoI4WHmdPMSJQsjEJ9t34rbot6BuxlQ9F6ZBTnmWEwZDZD
+    &callback=__globalCallbacks.f72193da
+    &fields=%5B%22business%22%2C%22currency%22%2C%22id%22%2C%22name%22%5D
+    &limit=50
+    &locale=ru_RU
+    &method=get
+    &pretty=0
+
+ANY
+[
+    {
+            ?currency=USD
+            &targeting_spec=
+                {
+                    "page_types":["rightcolumn"],
+                    "interests":
+                        [
+                            {
+                                "id":"6002971085794",
+                                "name":"Mobile phones"
+                            },
+                            {
+                                "id":"6003130537617",
+                                "name":"facebook mobile"
+                            }
+                        ],
+                    "age_min":18,
+                    "age_max":50,
+                    "geo_locations":
+                        {
+                            "countries":["RU"]
+                        }
+                }"
+    }
+]
+NONE
+[
+    {
+            ?currency=USD
+            &targeting_spec=
+                {
+                    "page_types":["rightcolumn"],
+                     "exclusions":
+                        {
+                            "interests":[{"id":"6002971085794","name":"Mobile phones"},{"id":"6003130537617","name":"facebook mobile"}]
+                        },
+                     "age_min":18,
+                     "age_max":50,
+                     "geo_locations":{"countries":["RU"]}
+                }"
+    }
+]
+
+
+ALL
+[
+    {
+            ?currency=USD
+            &targeting_spec=
+                {
+                    "page_types":["rightcolumn"],
+                    "flexible_spec":
+                        [
+                            {
+                                "interests":
+                                    [
+                                        {"id":"6002971085794","name":"Mobile phones"}
+                                    ]
+                            },
+                            {
+                                "interests":
+                                    [
+                                        {"id":"6003130537617","name":"facebook mobile"}
+                                    ]
+                            }
+                        ],
+                    "age_min":18,
+                    "age_max":50,
+                    "geo_locations":
+                        {
+                            "countries":["RU"]
+                        }
+                }"
+    }
+ ]
+
+ "https://www.facebook.com/connect/login_success.html?code=AQCiK1tpefrLoL5qllIysJjR6l14AbrvurpXIyTVyukGyFYCAeZVoHrfzw6TSuhKmw6cliQr_CKZtv-583xHx2tiT1-Nc3PDiPbDIBcYLlRYQ1eJYtbz6YUeAgDrxEufOA1mUezLF4-gcw7uSWK9F0eyveUMx8yZCp_qsgS2Fijb-JrSqtsQBNid5sRE2GRnAJFIY4DbumhOIpEl6pzwDZYKewzJwUpdxz8dPtQ5lHVwtFOweeEM456Cn-ZiuFIvHwePBtg6fXOWZKurUp5bxgnsiuk8cK3Oc7bZ9UMz_53Nz7AMBiO--SApE_jPGGL-fKRCbLB297iKFHkdzsTks8g1#_=_"
+
+ 6030224863624
+    ?access_token=CAAI4BG12pyIBANbz8KH93m89LzTzj5gehh9Tx9fRr4sdyZB8yHv4ZAyYQUKs9oWjJqnLevZCoOpJKA2lUWgkpkbft9yju6D1WCHgvNXJ4rgIofva6g5JZArKRL8LATSJZBZBswfanbPfjCgmLxRZBdx5Lnk49UThYoZBKclki8fTJsxJ33bApHMZAlYcUPZAqnHQoZBW7WqmLZCffAZDZD
+    &id=6030224863624
+    &method=post
+    &pretty=0
+    &targeting=
+    {
+        "genders":[2],
+        "age_max":50,
+        "age_min":16,
+        "interests":
+            [
+                {
+                    "id":"6003223575158",
+                    "name":"Грязные танцы"
+                },
+                {
+                    "id":"6003423342191",
+                    "name":"Танцы"
+                },
+                {
+                    "id":"6003299352701",
+                    "name":"Танец-вспышка"
+                }
+            ],
+        "page_types":["rightcolumn"],
+        "geo_locations":
+            {
+                "cities":
+                    [
+                        {"distance_unit":"kilometer","key":"1997692","name":"Krasnoyarsk","region":"Krasnoyarsk Krai","radius":70,"country":"RU"}
+                    ],
+                "location_types":["home","recent"]
+            }
+    }
